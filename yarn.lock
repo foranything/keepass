@@ -4,26 +4,31 @@
 
 amdefine@^0.1.0:
   version "0.1.1"
-  resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-0.1.1.tgz#b5c75c532052dccd6a39c0064c772c8d57a06cd2"
-  integrity sha1-tcdcUyBS3M1qOcAGTHcsjVegbNI=
+  resolved "https://registry.npmjs.org/amdefine/-/amdefine-0.1.1.tgz"
+  integrity "sha1-tcdcUyBS3M1qOcAGTHcsjVegbNI= sha512-cE/769sItEDt5sSdqmrWMsat+XaA5FJiEou+ZwlY7ef/Jf/517k6nYyUIRPR2o/QbpBg4FiYXj9GyRGNg5f/bg=="
 
 async@~1.3.0:
   version "1.3.0"
-  resolved "https://registry.yarnpkg.com/async/-/async-1.3.0.tgz#a6f1631e8a595a663496d0a5586bd12007d4871d"
-  integrity sha1-pvFjHopZWmY0ltClWGvRIAfUhx0=
+  resolved "https://registry.npmjs.org/async/-/async-1.3.0.tgz"
+  integrity "sha1-pvFjHopZWmY0ltClWGvRIAfUhx0= sha512-JsebKhdkyE+QlWiFF+Mo9n2YBiFXkUNNLN8eLJqowTxTiFV70hDdgldy8Y+muTuOVeGNyOFawqR2zLqPquLyOg=="
 
 dejavu@~0.4.8:
   version "0.4.8"
-  resolved "https://registry.yarnpkg.com/dejavu/-/dejavu-0.4.8.tgz#83b84dcffa824be554308c5205cc34d94b91973b"
-  integrity sha1-g7hNz/qCS+VUMIxSBcw02UuRlzs=
+  resolved "https://registry.npmjs.org/dejavu/-/dejavu-0.4.8.tgz"
+  integrity "sha1-g7hNz/qCS+VUMIxSBcw02UuRlzs= sha512-1V+gd+WInnk6SBcinmpiTvzkmtW2T9DMFWCGuahmHOxfiBAdrDFSmCvHS4juAXjx4ll2tSY50MN5qFA2yg9EIQ=="
   dependencies:
     amdefine "^0.1.0"
     mout "^0.9.1"
 
+dotenv@^16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
 keepass.io@^1.1.4:
   version "1.1.4"
-  resolved "https://registry.yarnpkg.com/keepass.io/-/keepass.io-1.1.4.tgz#3c5a9ab88bc01ee62b094be76303232811bb5bde"
-  integrity sha1-PFqauIvAHuYrCUvnYwMjKBG7W94=
+  resolved "https://registry.npmjs.org/keepass.io/-/keepass.io-1.1.4.tgz"
+  integrity "sha1-PFqauIvAHuYrCUvnYwMjKBG7W94= sha512-n5kL0FS8dVgDEoGYAXmPTXQGn0PdQLBc/viEzKSQ0DrqGgaBqZQXuWWVV9PdbqT1sO5wkkZOwlZD41BeRLzBAQ=="
   dependencies:
     async "~1.3.0"
     dejavu "~0.4.8"
@@ -32,22 +37,27 @@ keepass.io@^1.1.4:
 
 mout@^0.9.1:
   version "0.9.1"
-  resolved "https://registry.yarnpkg.com/mout/-/mout-0.9.1.tgz#84f0f3fd6acc7317f63de2affdcc0cee009b0477"
-  integrity sha1-hPDz/WrMcxf2PeKv/cwM7gCbBHc=
+  resolved "https://registry.npmjs.org/mout/-/mout-0.9.1.tgz"
+  integrity "sha1-hPDz/WrMcxf2PeKv/cwM7gCbBHc= sha512-mZMABHAQPQ87JDQuxZIndS6XXDYZfeAfcTvHYyEFG4SEUiGNkInNZi/WhesQjCKUWih1bDDkqHw63wyCaczhsw=="
 
 nan@~1.8.4:
   version "1.8.4"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-1.8.4.tgz#3c76b5382eab33e44b758d2813ca9d92e9342f34"
-  integrity sha1-PHa1OC6rM+RLdY0oE8qdkuk0LzQ=
+  resolved "https://registry.npmjs.org/nan/-/nan-1.8.4.tgz"
+  integrity "sha1-PHa1OC6rM+RLdY0oE8qdkuk0LzQ= sha512-609zQ1h3ApgH/94qmbbEklSrjcYYXCHnsWk4MAojq4OUk3tidhDYhPaMasMFKsZPZ96r4eQA1hbR2W4H7/77XA=="
+
+prettier@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.0.tgz#c7df58393c9ba77d6fba3921ae01faf994fb9dc9"
+  integrity sha512-9Lmg8hTFZKG0Asr/kW9Bp8tJjRVluO8EJQVfY2T7FMw9T5jy4I/Uvx0Rca/XWf50QQ1/SS48+6IJWnrb+2yemA==
 
 sax@>=0.6.0:
   version "1.2.4"
-  resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 xml2js@~0.4.9:
   version "0.4.23"
-  resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
+  resolved "https://registry.npmjs.org/xml2js/-/xml2js-0.4.23.tgz"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
   dependencies:
     sax ">=0.6.0"
@@ -55,5 +65,5 @@ xml2js@~0.4.9:
 
 xmlbuilder@~11.0.0:
   version "11.0.1"
-  resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-11.0.1.tgz#be9bae1c8a046e76b31127726347d0ad7002beb3"
+  resolved "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz"
   integrity sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==

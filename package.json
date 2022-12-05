@@ -7,6 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "keepass.io": "^1.1.4"
+    "dotenv": "^16.0.3",
+    "keepass.io": "^1.1.4",
+    "prettier": "^2.8.0"
   }
 }
